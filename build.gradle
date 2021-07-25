@@ -29,6 +29,9 @@ dependencies {
     compile('org.projectlombok:lombok')
     compile('org.springframework.boot:spring-boot-starter-data-jpa')
     compile('com.h2database:h2')
+    compile('org.springframework.boot:spring-boot-starter-mustache')
+    //compile group: 'org.mariadb.jdbc', name: 'mariadb-java-client', version: '2.7.0' // mariadb
+    // compile 'mysql:mysql-connector-java' //mysql
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
 
