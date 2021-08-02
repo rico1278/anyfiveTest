@@ -1,6 +1,6 @@
 buildscript{
     ext{
-        springBootVersion ='2.1.7.RELEASE'
+        springBootVersion = '2.1.7.RELEASE'
     }
     repositories {
         mavenCentral()
@@ -19,10 +19,6 @@ apply plugin : 'io.spring.dependency-management'
 group 'com.anyfive'
 version '1.0-SNAPSHOT'
 sourceCompatibility = 1.8
-
-repositories {
-    mavenCentral()
-}
 
 dependencies {
     compile('org.springframework.boot:spring-boot-starter-web')

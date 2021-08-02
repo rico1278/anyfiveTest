@@ -12,7 +12,7 @@
             <thead class="thead-strong">
                 <tr>
                     <th>게시글번호</th>
-                    <th>제목</th>
+                    <th>제목1</th>
                     <th>작성자</th>
                     <th>최종수정일</th>
                 </tr>
@@ -21,7 +21,7 @@
                 {{#posts}}
                     <tr>
                         <td>{{id}}</td>
-                        <td>{{title}}</td>
+                        <td><a href="/posts/update/{{id}}">{{title}}</a></td>
                         <td>{{author}}</td>
                         <td>{{modifiedDate}}</td>
                     </tr>
